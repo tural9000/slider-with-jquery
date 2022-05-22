@@ -1,0 +1,43 @@
+#slider{
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  margin: 10vh auto;
+  box-shadow: 0 0 10px #000;
+  background-image: url('img/1.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#thumbs{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+#thumbs > img{
+  height: 30px;
+  width: 30px;
+  border: 1px solid #63e6dba8;
+  border-radius: 50%;
+  margin: 10px;
+  opacity: .7;
+  cursor: pointer;
+}
+#thumbs > img:first-of-type{
+  border: 2.5px solid #63e6dba8; 
+  opacity: 1;
+}
+#line{
+  position: absolute;
+  height: .8vh;
+  background: #85512ec5;
+  box-shadow: 0 0 3px #55512ec8;
+}
+#page{
+  position: absolute;
+  right: .7em;
+  top: .5em;
+  color: #ffc;
+  font: bold 2em open;
+}
